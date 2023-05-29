@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+body,
+input,
+button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background: url(http://wall.rimbuz.com/wp-content/uploads/4K-Wallpaper-High-Definition.jpg);
+  background-position: center;
+}
+body {
+  background: url(https://images.unsplash.com/photo-1560977501-7cb367eccebe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  background: #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0 15px 10px;
+}
+
+button:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+button:active {
+  background: #bbb;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+header {
+  font-size: 2em;
+  margin: 10px 0 10px 0;
+}
+
+input {
+  background: #91919185;
+  color: white;
+  border: none;
+  font-size: 23px;
+  width: 50px;
+  padding: 10px 33px 10px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.card {
+  background-color: white;
+  max-width: 60%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: auto;
+  padding: 25px;
+  margin-top: 25vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  font-family: "Share Tech", sans-serif;
+  font-weight: bold;
+  background: #a7cfdf;
+  background: radial-gradient(
+    at center bottom,
+    rgb(253, 230, 138),
+    rgb(124, 58, 237),
+    rgb(12, 74, 110)
+  );
+  color: #fff;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+}
+
+.spacing {
+  margin: 15px;
+}
+
+.temp-fields {
+  display: inline-block;
+}
+
+.unit {
+  font-size: 1.6rem;
+  font-weight: 600;
+  /* padding: 10px 2px; */
+  /* margin-top: 19px; */
+  margin-left: -37px;
+  color: #fff;
+}
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  /* fade in */
+  animation: fadeIn ease 1.5s;
+}
+
+.temp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
